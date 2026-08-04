@@ -30,6 +30,46 @@
         "overlay_opacity": 0
       }
     },
+    "rich_text_fPjAwN": {
+      "type": "rich-text",
+      "blocks": {
+        "liquid_QzAAmH": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p></p>"
+          }
+        },
+        "heading_RXUnaQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Mellifera",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_6FTNCg": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Vẻ rạng rỡ khi cô ấy hết lòng vì điều mình để tâm.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_QzAAmH",
+        "heading_RXUnaQ",
+        "richtext_6FTNCg"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "disabled": true,
@@ -99,6 +139,7 @@
   },
   "order": [
     "banner",
+    "rich_text_fPjAwN",
     "main",
     "featured_collection_nWLVbH",
     "sunlit_woman_story_eGaedn"
