@@ -1,0 +1,268 @@
+{% doc %}
+  @prompt
+    Create a two-column section layout where the left column contains a Heading text and the right column contains a Paragraph text. Both columns should be customizable from the theme editor (editable heading text, paragraph text, font sizes, colors). The layout should be responsive — stacking vertically on mobile. Match a premium, elegant jewelry brand aesthetic.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-two-column-text-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .ai-two-column-text__container-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: {{ block.settings.column_gap }}px;
+    align-items: {{ block.settings.vertical_alignment }};
+  }
+
+  .ai-two-column-text__left-{{ ai_gen_id }} {
+    padding: {{ block.settings.column_padding }}px;
+  }
+
+  .ai-two-column-text__right-{{ ai_gen_id }} {
+    padding: {{ block.settings.column_padding }}px;
+  }
+
+  .two-column-text h2 {
+  text-align: center;
+}
+
+  .ai-two-column-text__heading-{{ ai_gen_id }} {
+    margin: 0;
+    font-size: {{ block.settings.heading_size }}px;
+    color: {{ block.settings.heading_color }};
+    font-weight: {{ block.settings.heading_weight }};
+    line-height: 1.2;
+    letter-spacing: {{ block.settings.heading_letter_spacing }}px;
+  }
+
+  .ai-two-column-text__paragraph-{{ ai_gen_id }} {
+    margin: 0;
+    font-size: {{ block.settings.paragraph_size }}px;
+    color: {{ block.settings.paragraph_color }};
+    line-height: 1.6;
+    letter-spacing: {{ block.settings.paragraph_letter_spacing }}px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-two-column-text__container-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: {{ block.settings.mobile_gap }}px;
+    }
+  }
+{% endstyle %}
+
+<two-column-text-{{ ai_gen_id }}
+  class="ai-two-column-text-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-two-column-text__container-{{ ai_gen_id }}">
+    <div class="ai-two-column-text__left-{{ ai_gen_id }}">
+      {% if block.settings.heading != blank %}
+        <h2 class="ai-two-column-text__heading-{{ ai_gen_id }}">
+          {{ block.settings.heading }}
+        </h2>
+      {% endif %}
+    </div>
+    <div class="ai-two-column-text__right-{{ ai_gen_id }}">
+      {% if block.settings.paragraph != blank %}
+        <div class="ai-two-column-text__paragraph-{{ ai_gen_id }}">
+          {{ block.settings.paragraph }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</two-column-text-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class TwoColumnText{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+    }
+
+    customElements.define('two-column-text-{{ ai_gen_id }}', TwoColumnText{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Two column text",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "column_gap",
+      "label": "Column gap (desktop)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "mobile_gap",
+      "label": "Column gap (mobile)",
+      "min": 0,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "column_padding",
+      "label": "Column padding",
+      "min": 0,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "select",
+      "id": "vertical_alignment",
+      "label": "Vertical alignment",
+      "options": [
+        {
+          "value": "start",
+          "label": "Top"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "end",
+          "label": "Bottom"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Heading (left column)"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading text",
+      "default": "<p>Handcrafted with care</p>"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Font size",
+      "min": 16,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Color",
+      "default": "#272727"
+    },
+    {
+      "type": "select",
+      "id": "heading_weight",
+      "label": "Font weight",
+      "options": [
+        {
+          "value": "300",
+          "label": "Light"
+        },
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi-bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ],
+      "default": "700"
+    },
+    {
+      "type": "range",
+      "id": "heading_letter_spacing",
+      "label": "Letter spacing",
+      "min": 0,
+      "max": 5,
+      "step": 0.5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Paragraph (right column)"
+    },
+    {
+      "type": "richtext",
+      "id": "paragraph",
+      "label": "Paragraph text",
+      "default": "<p>Each piece in our collection is meticulously crafted by skilled artisans, combining traditional techniques with contemporary design to create jewelry that tells your unique story.</p>"
+    },
+    {
+      "type": "range",
+      "id": "paragraph_size",
+      "label": "Font size",
+      "min": 12,
+      "max": 32,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "paragraph_color",
+      "label": "Color",
+      "default": "#272727"
+    },
+    {
+      "type": "range",
+      "id": "paragraph_letter_spacing",
+      "label": "Letter spacing",
+      "min": 0,
+      "max": 3,
+      "step": 0.5,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Two column text"
+    }
+  ]
+}
+{% endschema %}

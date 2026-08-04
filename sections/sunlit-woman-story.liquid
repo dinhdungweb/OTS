@@ -1,0 +1,555 @@
+{% liquid
+  assign section_id = 'sunlit-woman-story-' | append: section.id
+%}
+
+<section
+  id="{{ section_id }}"
+  class="sunlit-story"
+  style="--story-background: {{ section.settings.background.rgb }}; --story-text: {{ section.settings.text_color.rgb }};"
+>
+  <div class="sunlit-story__inner">
+    <div class="sunlit-story__row sunlit-story__row--three-images">
+      <div class="sunlit-story__gallery sunlit-story__gallery--three" aria-label="{{ section.settings.first_heading | escape }}">
+        {% for index in (1..3) %}
+          {% liquid
+            case index
+              when 1
+                assign image = section.settings.first_image_1
+              when 2
+                assign image = section.settings.first_image_2
+              else
+                assign image = section.settings.first_image_3
+            endcase
+          %}
+          <div class="sunlit-story__image sunlit-story__image--portrait">
+            {% if image != blank %}
+              {{ image | image_url: width: 900 | image_tag: loading: 'lazy', widths: '240, 360, 480, 720, 900', sizes: '(max-width: 749px) 29vw, (max-width: 1099px) 15vw, 190px' }}
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'sunlit-story__placeholder' }}
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+
+      <div class="sunlit-story__content sunlit-story__content--right">
+        {% if section.settings.first_heading != blank %}
+          <h2 class="sunlit-story__heading">{{ section.settings.first_heading }}</h2>
+        {% endif %}
+        <div class="sunlit-story__text rte">{{ section.settings.first_text }}</div>
+      </div>
+    </div>
+
+    <div class="sunlit-story__row sunlit-story__row--text-first">
+      <div class="sunlit-story__content">
+        {% if section.settings.second_heading != blank %}
+          <h2 class="sunlit-story__heading">{{ section.settings.second_heading }}</h2>
+        {% endif %}
+        <div class="sunlit-story__text rte">{{ section.settings.second_text }}</div>
+      </div>
+
+      <div class="sunlit-story__gallery sunlit-story__gallery--two" aria-label="{{ section.settings.second_heading | escape }}">
+        {% for index in (1..2) %}
+          {% if index == 1 %}
+            {% assign image = section.settings.second_image_1 %}
+          {% else %}
+            {% assign image = section.settings.second_image_2 %}
+          {% endif %}
+          <div class="sunlit-story__image sunlit-story__image--portrait">
+            {% if image != blank %}
+              {{ image | image_url: width: 900 | image_tag: loading: 'lazy', widths: '240, 360, 480, 720, 900', sizes: '(max-width: 749px) 44vw, (max-width: 1099px) 22vw, 245px' }}
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'sunlit-story__placeholder' }}
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="sunlit-story__row sunlit-story__row--images-first">
+      <div class="sunlit-story__gallery sunlit-story__gallery--two" aria-label="{{ section.settings.third_heading | escape }}">
+        {% for index in (1..2) %}
+          {% if index == 1 %}
+            {% assign image = section.settings.third_image_1 %}
+          {% else %}
+            {% assign image = section.settings.third_image_2 %}
+          {% endif %}
+          <div class="sunlit-story__image sunlit-story__image--portrait">
+            {% if image != blank %}
+              {{ image | image_url: width: 900 | image_tag: loading: 'lazy', widths: '240, 360, 480, 720, 900', sizes: '(max-width: 749px) 44vw, (max-width: 1099px) 22vw, 245px' }}
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'sunlit-story__placeholder' }}
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+
+      <div class="sunlit-story__content sunlit-story__content--right">
+        {% if section.settings.third_heading != blank %}
+          <h2 class="sunlit-story__heading">{{ section.settings.third_heading }}</h2>
+        {% endif %}
+        <div class="sunlit-story__text rte">{{ section.settings.third_text }}</div>
+      </div>
+    </div>
+
+    {% if section.settings.statement != blank %}
+      <div class="sunlit-story__statement">{{ section.settings.statement }}</div>
+    {% endif %}
+
+    <div class="sunlit-story__image sunlit-story__image--wide">
+      {% if section.settings.wide_image != blank %}
+        {{ section.settings.wide_image | image_url: width: 2400 | image_tag: loading: 'lazy', widths: '600, 900, 1200, 1600, 2000, 2400', sizes: '(max-width: 749px) 94vw, (max-width: 1099px) 88vw, 1120px' }}
+      {% else %}
+        {{ 'lifestyle-1' | placeholder_svg_tag: 'sunlit-story__placeholder' }}
+      {% endif %}
+    </div>
+
+    <div class="sunlit-story__row sunlit-story__row--final">
+      <div class="sunlit-story__content">
+        {% if section.settings.final_heading != blank %}
+          <h2 class="sunlit-story__heading">{{ section.settings.final_heading }}</h2>
+        {% endif %}
+        <div class="sunlit-story__text rte">{{ section.settings.final_text }}</div>
+      </div>
+
+      <div class="sunlit-story__gallery sunlit-story__gallery--two" aria-label="{{ section.settings.final_heading | escape }}">
+        {% for index in (1..2) %}
+          {% if index == 1 %}
+            {% assign image = section.settings.final_image_1 %}
+          {% else %}
+            {% assign image = section.settings.final_image_2 %}
+          {% endif %}
+          <div class="sunlit-story__image sunlit-story__image--product">
+            {% if image != blank %}
+              {{ image | image_url: width: 900 | image_tag: loading: 'lazy', widths: '240, 360, 480, 720, 900', sizes: '(max-width: 749px) 44vw, (max-width: 1099px) 22vw, 245px' }}
+            {% else %}
+              {{ 'product-1' | placeholder_svg_tag: 'sunlit-story__placeholder' }}
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% style %}
+  #{{ section_id }} {
+    --story-page-width: {{ section.settings.content_width }}px;
+    --story-gap: clamp(18px, 3.2vw, 54px);
+    --story-radius: {{ section.settings.image_radius }}px;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    padding-block: {{ section.settings.padding_top }}px {{ section.settings.padding_bottom }}px;
+    background-color: rgb(var(--story-background));
+    color: rgb(var(--story-text));
+  }
+
+  #{{ section_id }}::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    opacity: {{ section.settings.pattern_opacity | divided_by: 100.0 }};
+    background-image: radial-gradient(circle, currentColor 1px, transparent 1.2px);
+    background-size: 20px 20px;
+    pointer-events: none;
+  }
+
+  #{{ section_id }} .sunlit-story__inner {
+    width: min(calc(100% - 40px), var(--story-page-width));
+    margin-inline: auto;
+  }
+
+  #{{ section_id }} .sunlit-story__row {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(260px, .85fr);
+    align-items: center;
+    gap: var(--story-gap);
+    margin-block: clamp(28px, 5vw, 64px);
+  }
+
+  #{{ section_id }} .sunlit-story__row:first-child {
+    margin-top: 0;
+  }
+
+  #{{ section_id }} .sunlit-story__gallery {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: clamp(7px, 1vw, 14px);
+    min-width: 0;
+  }
+
+  #{{ section_id }} .sunlit-story__image {
+    position: relative;
+    overflow: hidden;
+    min-width: 0;
+    border-radius: var(--story-radius);
+    background: rgb(var(--story-text) / .06);
+  }
+
+  #{{ section_id }} .sunlit-story__image--portrait {
+    aspect-ratio: 3 / 4.15;
+  }
+
+  #{{ section_id }} .sunlit-story__image--product {
+    aspect-ratio: 3 / 4;
+  }
+
+  #{{ section_id }} .sunlit-story__image--wide {
+    aspect-ratio: 4.25 / 1;
+    margin-block: clamp(16px, 2.8vw, 36px) clamp(34px, 5vw, 64px);
+  }
+
+  #{{ section_id }} .sunlit-story__image img,
+  #{{ section_id }} .sunlit-story__placeholder {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #{{ section_id }} .sunlit-story__placeholder {
+    color: rgb(var(--story-text) / .3);
+    background: rgb(var(--story-text) / .04);
+  }
+
+  #{{ section_id }} .sunlit-story__content {
+    max-width: 49ch;
+  }
+
+  #{{ section_id }} .sunlit-story__content--right {
+    justify-self: end;
+  }
+
+  #{{ section_id }} .sunlit-story__heading {
+    margin: 0 0 .65rem;
+    font-family: var(--heading-font-family);
+    font-size: clamp(1.35rem, 1.7vw, 2rem);
+    font-weight: 700;
+    line-height: 1.18;
+    letter-spacing: -.02em;
+    text-transform: none;
+  }
+
+  #{{ section_id }} .sunlit-story__text {
+    font-size: clamp(.9rem, 1vw, 1.05rem);
+    line-height: 1.55;
+  }
+
+  #{{ section_id }} .sunlit-story__text > * {
+    margin-block: 0 .8em;
+  }
+
+  #{{ section_id }} .sunlit-story__text > *:last-child {
+    margin-bottom: 0;
+  }
+
+  #{{ section_id }} .sunlit-story__statement {
+    max-width: 900px;
+    margin: clamp(36px, 5vw, 68px) auto clamp(20px, 3vw, 36px);
+    padding-inline: 20px;
+    font-family: var(--heading-font-family);
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-weight: 700;
+    line-height: 1.28;
+    text-align: center;
+  }
+
+  #{{ section_id }} .sunlit-story__row--final {
+    grid-template-columns: minmax(0, 1.3fr) minmax(290px, .7fr);
+    align-items: start;
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 749px) {
+    #{{ section_id }} {
+      padding-block: {{ section.settings.padding_top_mobile }}px {{ section.settings.padding_bottom_mobile }}px;
+    }
+
+    #{{ section_id }} .sunlit-story__inner {
+      width: min(calc(100% - 28px), var(--story-page-width));
+    }
+
+    #{{ section_id }} .sunlit-story__row,
+    #{{ section_id }} .sunlit-story__row--final {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 18px;
+      margin-block: 36px;
+    }
+
+    #{{ section_id }} .sunlit-story__row:first-child {
+      margin-top: 0;
+    }
+
+    #{{ section_id }} .sunlit-story__row--three-images .sunlit-story__gallery,
+    #{{ section_id }} .sunlit-story__row--images-first .sunlit-story__gallery {
+      order: 1;
+    }
+
+    #{{ section_id }} .sunlit-story__row--three-images .sunlit-story__content,
+    #{{ section_id }} .sunlit-story__row--images-first .sunlit-story__content {
+      order: 2;
+    }
+
+    #{{ section_id }} .sunlit-story__row--text-first .sunlit-story__content,
+    #{{ section_id }} .sunlit-story__row--final .sunlit-story__content {
+      order: 1;
+    }
+
+    #{{ section_id }} .sunlit-story__row--text-first .sunlit-story__gallery,
+    #{{ section_id }} .sunlit-story__row--final .sunlit-story__gallery {
+      order: 2;
+    }
+
+    #{{ section_id }} .sunlit-story__content,
+    #{{ section_id }} .sunlit-story__content--right {
+      max-width: none;
+      justify-self: stretch;
+    }
+
+    #{{ section_id }} .sunlit-story__heading {
+      font-size: clamp(1.28rem, 5.6vw, 1.65rem);
+    }
+
+    #{{ section_id }} .sunlit-story__text {
+      font-size: .95rem;
+    }
+
+    #{{ section_id }} .sunlit-story__statement {
+      margin-block: 42px 22px;
+      padding-inline: 4px;
+      font-size: clamp(1.15rem, 5vw, 1.5rem);
+    }
+
+    #{{ section_id }} .sunlit-story__image--wide {
+      aspect-ratio: 2.15 / 1;
+      margin-block: 0 40px;
+    }
+  }
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Câu chuyện người phụ nữ",
+  "tag": "section",
+  "class": "shopify-section--sunlit-story",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Hàng 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "first_image_1",
+      "label": "Ảnh 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "first_image_2",
+      "label": "Ảnh 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "first_image_3",
+      "label": "Ảnh 3"
+    },
+    {
+      "type": "text",
+      "id": "first_heading",
+      "label": "Tiêu đề",
+      "default": "Mỗi cô gái có một khu vườn"
+    },
+    {
+      "type": "richtext",
+      "id": "first_text",
+      "label": "Nội dung",
+      "default": "<p>Mỗi cô gái đều có một “khu vườn” của riêng mình. Khi dành thời gian vun đắp những điều mình yêu, cô ấy cũng đang âm thầm nuôi dưỡng và trân trọng khu vườn ấy. Mỗi sáng tạo đều bắt đầu từ tình yêu dành cho vẻ đẹp tự nhiên.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Hàng 2"
+    },
+    {
+      "type": "text",
+      "id": "second_heading",
+      "label": "Tiêu đề",
+      "default": "Khi cô ấy tập trung vào điều mình làm"
+    },
+    {
+      "type": "richtext",
+      "id": "second_text",
+      "label": "Nội dung",
+      "default": "<p>Đó có thể là một công việc cô ấy dành trọn tâm huyết, một sở thích khiến cô ấy quên đi thời gian, hay đơn giản là điều cô ấy luôn mong muốn làm tốt hơn mỗi ngày.</p><p>Cô ấy làm giàu thêm cuộc sống của mình bằng thứ quý giá nhất: trái tim và sức sáng tạo.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "second_image_1",
+      "label": "Ảnh 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "second_image_2",
+      "label": "Ảnh 2"
+    },
+    {
+      "type": "header",
+      "content": "Hàng 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "third_image_1",
+      "label": "Ảnh 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "third_image_2",
+      "label": "Ảnh 2"
+    },
+    {
+      "type": "text",
+      "id": "third_heading",
+      "label": "Tiêu đề",
+      "default": "Trân trọng từng thành quả trên hành trình"
+    },
+    {
+      "type": "richtext",
+      "id": "third_text",
+      "label": "Nội dung",
+      "default": "<p>Vẻ rạng rỡ của cô ấy không nằm ở một khoảnh khắc. Nó được nuôi dưỡng qua mỗi ngày sống hết lòng.</p><p>Hành trình đạt đến những điều mong muốn cần nhiều thời gian và tâm sức, nhưng sẽ nhẹ nhàng hơn khi ta biết trân trọng cả những thành quả nhỏ bé nhất.</p>"
+    },
+    {
+      "type": "header",
+      "content": "Thông điệp & ảnh ngang"
+    },
+    {
+      "type": "textarea",
+      "id": "statement",
+      "label": "Thông điệp",
+      "default": "Khi hết lòng với những điều mình yêu, cô ấy cũng đang nuôi dưỡng bông hoa đẹp nhất – chính là bản thân mình"
+    },
+    {
+      "type": "image_picker",
+      "id": "wide_image",
+      "label": "Ảnh ngang"
+    },
+    {
+      "type": "header",
+      "content": "Hàng cuối"
+    },
+    {
+      "type": "text",
+      "id": "final_heading",
+      "label": "Tiêu đề",
+      "default": "Được tạo nên từ đôi tay và sự tận tâm"
+    },
+    {
+      "type": "richtext",
+      "id": "final_text",
+      "label": "Nội dung",
+      "default": "<p>Từ bản phác thảo đầu tiên đến từng đoạn hoàn thiện cuối cùng, mỗi thiết kế đều được chắt lọc từ cảm xúc và sự sáng tạo.</p><p>Nó không chỉ là những chi tiết được lựa chọn vì vẻ đẹp của chúng, mà còn bởi ý nghĩa chúng mang theo: sự rạng rỡ, sự cân bằng và nguồn năng lượng lành hiền riêng của mỗi cô gái.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "final_image_1",
+      "label": "Ảnh sản phẩm 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "final_image_2",
+      "label": "Ảnh sản phẩm 2"
+    },
+    {
+      "type": "header",
+      "content": "Giao diện"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Màu nền",
+      "default": "#fffef9"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Màu chữ",
+      "default": "#222222"
+    },
+    {
+      "type": "range",
+      "id": "content_width",
+      "min": 900,
+      "max": 1400,
+      "step": 20,
+      "unit": "px",
+      "label": "Chiều rộng nội dung",
+      "default": 1120
+    },
+    {
+      "type": "range",
+      "id": "image_radius",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "Bo góc ảnh",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "pattern_opacity",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "%",
+      "label": "Độ đậm họa tiết chấm",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "label": "Khoảng trên desktop",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 160,
+      "step": 4,
+      "unit": "px",
+      "label": "Khoảng dưới desktop",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Khoảng trên mobile",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Khoảng dưới mobile",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "Câu chuyện người phụ nữ"
+    }
+  ]
+}
+{% endschema %}

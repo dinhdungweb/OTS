@@ -1,0 +1,59 @@
+<div class="product-tabs">
+  <ul class="tab-list">
+    <li class="tab-item active" data-tab="description">Mô tả sản phẩm</li>
+    <li class="tab-item" data-tab="reviews">Đánh giá</li>
+  </ul>
+  
+  <div class="tab-content">
+    <div id="description" class="tab-pane active">
+      <div class="product-info__description" {{ block.shopify_attributes }}>
+        <div class="prose">
+          {{- product.description -}}
+        </div>
+      </div>
+    </div>
+    
+    <div id="reviews" class="tab-pane">
+      <!-- Start of Judge.me code --> 
+        <div style='clear:both'></div> 
+        <div id='judgeme_product_reviews' class='jdgm-widget jdgm-review-widget' data-id='{{ product.id }}'> 
+          {{ product.metafields.judgeme.widget }} 
+        </div> 
+      <!-- End of Judge.me code -->
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const tabs = document.querySelectorAll('.tab-item');
+    const panes = document.querySelectorAll('.tab-pane');
+    
+    tabs.forEach(tab => {
+      tab.addEventListener('click', function() {
+        // Xóa lớp 'active' khỏi tất cả các tab và tab-pane
+        tabs.forEach(t => t.classList.remove('active'));
+        panes.forEach(p => p.classList.remove('active'));
+        
+        // Thêm lớp 'active' vào tab và tab-pane được chọn
+        this.classList.add('active');
+        const pane = document.querySelector(`#${this.getAttribute('data-tab')}`);
+        pane.classList.add('active');
+      });
+    });
+  });
+</script>
+{% schema %}
+  {
+    "name": "Tabs Product Description",
+    "settings": [],
+    "presets": [
+    {
+      "name": "Tabs Product Description",
+      "settings": {
+      },
+      "blocks": []
+    }
+  ]
+  }
+{% endschema %}

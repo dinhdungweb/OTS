@@ -1,0 +1,59 @@
+<div class="care-about">
+    <div class="blog-title">Quan Tâm Nhất!</div>
+    {% assign articles = blog.articles | sort: 'created_at', 'desc' %}
+    
+  {% assign count = 0 %}
+{% for article in blog.articles %}
+  {% if article.tags contains 'quan tâm nhất' %}
+    {% if count < 3 %}
+      <div class="article-careabout">
+        {%- if article.image -%}
+          <div class="article-image-blog">
+            <a href="{{ article.url }}"><img src="{{ article.image.src | img_url: '' }}" alt="{{ article.title }}" /></a>
+          </div>
+        {% endif %}
+          <div class="article-careabout-content">
+           <div class="rb_title_care_about"><a href="{{ article.url }}">{{ article.title }}</a></div>
+            
+          </div>
+      </div>
+      {% assign count = count | plus: 1 %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+</div>
+<style>
+  .rb_title_care_about {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+  .article-careabout-content {
+    margin-bottom: 20px;
+  }
+  .article-image-blog img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    padding-bottom: 6px;
+  }
+  #relatedblogs .rb_title a {
+  font-size: 14px;
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+#relatedblogs img.rb_image {
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #80808052;
+  max-width: -webkit-fill-available;
+  width: 100%;
+  height: 250px;
+}
+div#relatedblogs ul {
+  column-gap: 20px;
+}
+</style>

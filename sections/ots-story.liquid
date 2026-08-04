@@ -1,0 +1,143 @@
+<div class="helios_story_container">
+  {% for block in section.blocks %}
+    <a class="helios-story-item" href="{{ block.settings.helios_story_link }}" title="{{ block.settings.helios_story_title }}">
+      <div class="helios-story-img">
+        <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.helios_story_title }}" />
+      </div>
+      <div class="helios-story-title card-title-ellipsis">
+        {{ block.settings.helios_story_title }}
+      </div>
+    </a>
+  {% endfor %}
+</div>
+
+{% style %}
+.helios_story_container::-webkit-scrollbar {
+  display: none;
+}
+.helios_story_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 12px;
+}
+.helios-story-item {
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.helios-story-img img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.helios-story-title {
+    font-size: 0.8rem;
+  line-height: 1.5;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+@media screen and (max-width:1100px) {
+.helios_story_container {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.helios-story-item {
+    scroll-snap-align: start;
+}
+.helios-story-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.helios-story-img {
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    border-radius: 99px;
+}
+}
+@media screen and (min-width: 1100px) {
+  .helios_story_container {
+    display: none;
+  }
+}
+{% endstyle %}
+{% schema %}
+  {
+    "name": "OTS Story Highlight",
+    "class": "helios-story",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "title",
+        "name": "Bộ sưu tập nổi bật",
+        "settings": [
+          {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "helios_story_title",
+            "label": "Heading",
+            "default": "Nhập tên story"
+          },
+          {
+            "type": "range",
+            "id": "font_size",
+            "min": 12,
+            "max": 24,
+            "step": 1,
+            "unit": "px",
+            "label": "Font size",
+            "default": 14
+          },
+          {
+            "type": "select",
+            "id": "vertical_alignment",
+            "label": "Heading alignment",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Center"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
+            ],
+            "default": "center"
+          },
+          {
+            "type": "url",
+            "id": "helios_story_link",
+            "label": "Story link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "OTS Story Highlight",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}
