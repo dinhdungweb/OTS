@@ -32,6 +32,7 @@
     },
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "settings": {
         "products_per_page": 24,
         "products_per_row_mobile": "2",
@@ -43,10 +44,35 @@
         "show_filter_values_count": true,
         "open_first_filter_group": true
       }
+    },
+    "sunlit_woman_story_eGaedn": {
+      "type": "sunlit-woman-story",
+      "name": "Câu chuyện người phụ nữ",
+      "settings": {
+        "first_heading": "Mỗi cô gái có một khu vườn",
+        "first_text": "<p>Mỗi cô gái đều có một “khu vườn” của mình. Khi dành thời gian và tâm sức cho những điều mình lựa chọn, cô ấy cũng đang âm thầm tạo nên vẻ rạng rỡ rất riêng của chính mình. Mellifera ra đời để tôn vinh vẻ đẹp ấy.</p>",
+        "second_heading": "Khi cô ấy tập trung vào điều mình làm",
+        "second_text": "<p>Đó có thể là một công việc cô ấy dành trọn tâm huyết, một sở thích khiến cô ấy quên đi thời gian, những người cô ấy yêu thương hay chính cuộc sống mà cô ấy đã lựa chọn.</p><p>Mỗi ngày, cô ấy âm thầm chăm chút cho khu vườn ấy bằng thời gian, sự kiên trì và tất cả những điều nhỏ bé nhưng đầy chủ đích. Và rồi, theo một cách rất tự nhiên, những điều cô ấy tạo nên cũng đang âm thầm tạo nên chính cô ấy.</p>",
+        "third_heading": "Trân trọng từng thành quả trên hành trình",
+        "third_text": "<p>Vẻ rạng rỡ của cô ấy không đến từ một khoảnh khắc. Nó được nuôi dưỡng qua mỗi ngày sống hết lòng.</p><p>Hành trình đạt đến những điều mong muốn mất nhiều thời gian và tâm sức nhưng cô gái biết làm hành trình đó nhẹ nhàng hơn khi trân trọng và ăn mừng cho cả những thành quả nhỏ bé nhất để tận hưởng cả hành trình. </p>",
+        "statement": "Khi hết lòng với những điều mình yêu, cô ấy cũng đang nuôi dưỡng bông hoa đẹp nhất – chính là bản thân mình",
+        "final_heading": "Được tạo nên từ đôi tay và sự tận tâm",
+        "final_text": "<p>Từ bản phác thảo đầu tiên đến công đoạn hoàn thiện cuối cùng, mỗi thiết kế đều được chế tác thủ công từ bạc S925, kết hợp cùng đá Citrine & Moonstone ánh xanh.</p><p>Đó không chỉ là những chất liệu được lựa chọn vì vẻ đẹp của chúng, mà còn bởi ý nghĩa chúng mang theo: sự rạng rỡ, sự cân bằng và nguồn năng lượng luôn hiện diện trong mỗi cô gái. </p>",
+        "background": "#FFFFFF",
+        "text_color": "#222222",
+        "content_width": 1120,
+        "image_radius": 10,
+        "pattern_opacity": 0,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "sunlit_woman_story_eGaedn"
   ]
 }
