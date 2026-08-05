@@ -1,1 +1,756 @@
-{"sections":{"collection_list_xJbjPP":{"type":"collection-list","blocks":{"collection_FR6azK":{"type":"collection","settings":{"collection":"","image":"shopify:\/\/shop_images\/SON00761_1_9f1dde14-52cc-4216-ae9d-e36382bbe465.jpg","subheading":"","title":"The Summer Edit 2026","url":"shopify:\/\/collections","heading_tag":"h1","text_position":"place-self-end-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"collection_YJwPQ3":{"type":"collection","settings":{"collection":"","image":"shopify:\/\/shop_images\/SON00136-1_2_fix_2.jpg","subheading":"","title":"","url":"","heading_tag":"h1","text_position":"place-self-end-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["collection_FR6azK","collection_YJwPQ3"],"name":"Collection list","settings":{"full_width":true,"stack_collections":true,"collections_per_row":2,"show_progress_bar":false,"subheading":"","title":"","content":"","link_url":"","link_text":"","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}},"video_hJ3L4e":{"type":"video","blocks":{"play_86FeTE":{"type":"play","disabled":true,"settings":{}}},"block_order":["play_86FeTE"],"disabled":true,"name":"Video","settings":{"full_width":true,"allow_transparent_header":false,"autoplay":true,"video_size":"fill","video":"shopify:\/\/files\/videos\/MAIN WEBSITE 169.mp4","mobile_video":"shopify:\/\/files\/videos\/MAIN WEBSITE 916 Mp4.mp4","external_video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"custom_liquid_9rQ6BJ":{"type":"custom-liquid","disabled":true,"settings":{"full_width":true,"remove_vertical_spacing":false,"remove_horizontal_spacing":false,"liquid":"<p><\/p>","background":"","background_gradient":"","text_color":""}},"1779941097e9f8904f":{"type":"_blocks","blocks":{"ai_gen_block_b49edf6_qg76ye":{"type":"ai_gen_block_b49edf6","settings":{"desktop_width_percent":80,"column_gap":0,"mobile_gap":0,"column_padding":55,"vertical_alignment":"center","heading":"<h1>Made Of The Sun, Live by the sun.<\/h1>","heading_size":54,"heading_color":"#aa2826","heading_weight":"700","heading_letter_spacing":0,"paragraph":"<p>Với Of The Sun, từng trang sức thiết kế của chúng tôi không chỉ là món phụ kiện đơn thuần, mà còn để đánh thức thần thái rạng rỡ và thổi bừng sức sống trong từng khoảnh khắc.<\/p>","paragraph_size":18,"paragraph_color":"#272727","paragraph_letter_spacing":0},"blocks":{}}},"block_order":["ai_gen_block_b49edf6_qg76ye"],"settings":{}},"custom_liquid_fkeYkA":{"type":"custom-liquid","settings":{"full_width":true,"remove_vertical_spacing":false,"remove_horizontal_spacing":false,"liquid":"<p><\/p>","background":"","background_gradient":"","text_color":""}},"collection_list_4pkwWc":{"type":"collection-list","blocks":{"collection_hnNwxE":{"type":"collection","settings":{"collection":"pearl","image":"shopify:\/\/shop_images\/SON00535_1.jpg","subheading":"","title":"Pearl","url":"","heading_tag":"h1","text_position":"place-self-end-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":8}},"collection_eYaTWb":{"type":"collection","settings":{"collection":"aqua","image":"shopify:\/\/shop_images\/SON00761_2.jpg","subheading":"","title":"Aqua","url":"","heading_tag":"h1","text_position":"place-self-end-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"collection_XypDWa":{"type":"collection","settings":{"collection":"flora","image":"shopify:\/\/shop_images\/SON00238_1_1_1.jpg","subheading":"","title":"Flora","url":"","heading_tag":"h1","text_position":"place-self-end-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"collection_7tLrBW":{"type":"collection","settings":{"collection":"sun","image":"shopify:\/\/shop_images\/SON00182_1.jpg","subheading":"","title":"Sun","url":"","heading_tag":"h1","text_position":"place-self-end-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["collection_hnNwxE","collection_eYaTWb","collection_XypDWa","collection_7tLrBW"],"settings":{"full_width":true,"stack_collections":true,"collections_per_row":4,"show_progress_bar":false,"subheading":"","title":"","content":"","link_url":"","link_text":"","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}},"custom_liquid_YcBrBU":{"type":"custom-liquid","settings":{"full_width":true,"remove_vertical_spacing":false,"remove_horizontal_spacing":false,"liquid":"<p><\/p>","background":"","background_gradient":"","text_color":""}},"image_link_blocks_fQeCUz":{"type":"image-link-blocks","blocks":{"item_gYXFFY":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/LEVIS-1.jpg","stretch_image":true,"link_text":"","link_url":"shopify:\/\/products\/levys-bracelet-ofthesun","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item_CWBTG9":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/twist_gem-1.jpg","stretch_image":true,"link_text":"","link_url":"shopify:\/\/products\/twist-gem-ring-ofthesun","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item_ACwmLa":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/NIMBLE-1.jpg","stretch_image":true,"link_text":"","link_url":"shopify:\/\/products\/nimble-blue-topaz-bracelet-inbloom-ofthesun","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item_WjDGtE":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/zephyr-1.jpg","stretch_image":true,"link_text":"","link_url":"shopify:\/\/products\/zephyr-pendant-inbloom-ofthesun","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item_VkdT9r":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/W_H.jpg","stretch_image":true,"link_text":"","link_url":"shopify:\/\/products\/heartbloom-whisper-rings-morph-ofthesun","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item_ThWeQa":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/bloomheartt-1.jpg","stretch_image":true,"link_text":"","link_url":"shopify:\/\/products\/bloomheart-charm-morph-ofthesun","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item_NfULPn":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/siren_tear-1.jpg","stretch_image":true,"link_text":"","link_url":"shopify:\/\/products\/sirens-tear-pendant-ofthesun","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item_nygd3e":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/tear_of_joy-3.jpg","stretch_image":true,"link_text":"","link_url":"shopify:\/\/products\/tear-of-joy-earring-ofthesun","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item_Q9yKL3":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/aero-1.jpg","stretch_image":true,"link_text":"","link_url":"shopify:\/\/products\/aero-blue-topaz-ring-inbloom-ofthesun","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item_LawNf4":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/ray_flutter-1.jpg","stretch_image":true,"link_text":"","link_url":"shopify:\/\/products\/rayflutter-blue-topaz-earrings-inbloom-ofthesun","background":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["item_gYXFFY","item_CWBTG9","item_ACwmLa","item_WjDGtE","item_VkdT9r","item_ThWeQa","item_NfULPn","item_nygd3e","item_Q9yKL3","item_LawNf4"],"disabled":true,"custom_css":[],"name":"Image link blocks","settings":{"full_width":true,"block_size":"large","subheading":"","title":"SUMMER PICKS JUST FOR YOU","content":"","link_url":"","link_text":"","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}},"featured_collection_BFeNjf":{"type":"featured-collection","name":"Featured collection","settings":{"collection":"all-products","products":["levys-bracelet-ofthesun","pearl-sonata-necklace-ofthesun","nimble-moonstone-bracelet-inbloom-ofthesun","aero-moonstone-ring-inbloom-ofthesun","rayflutter-moonstone-earrings-inbloom-ofthesun","zephyr-pendant-inbloom-ofthesun","gleam-pendant-inbloom-ofthesun","jupier-opal-ring-ofthesun","tear-of-joy-earring-ofthesun","solid-ring-ofthesun","twist-gem-ring-ofthesun","pearl-mussel-bracelet-sea-ofthesun","starlight-bracelet-sea-ofthesun"],"full_width":true,"stack_products":false,"show_progress_bar":true,"products_count":12,"products_per_row_mobile":"2","products_per_row_desktop":4,"subheading":"","title":"SUMMER PICKS FOR YOU","content":"","link_url":"","link_text":"View all","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":"","product_card_background":"","product_card_text_color":""}},"video_Nf8paE":{"type":"video","blocks":{"play_9w8XUU":{"type":"play","disabled":true,"settings":{}}},"block_order":["play_9w8XUU"],"name":"Video","settings":{"full_width":true,"allow_transparent_header":false,"autoplay":true,"video_size":"auto","video":"shopify:\/\/files\/videos\/MAIN WEBSITE 169.mp4","mobile_video":"shopify:\/\/files\/videos\/MAIN WEBSITE 916 Mp4.mp4","external_video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"custom_liquid_jwdN3U":{"type":"custom-liquid","settings":{"full_width":true,"remove_vertical_spacing":false,"remove_horizontal_spacing":false,"liquid":"<p><\/p>","background":"","background_gradient":"","text_color":""}},"collection_list_TwAYmG":{"type":"collection-list","blocks":{"collection_7NQUga":{"type":"collection","settings":{"collection":"","image":"shopify:\/\/shop_images\/SON00871-Fix_1_1.jpg","subheading":"","title":"Shop sterling silver","url":"https:\/\/ofthesun.vn\/pages\/bo-suu-tap","heading_tag":"h1","text_position":"place-self-end-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"collection_hYEQkR":{"type":"collection","settings":{"collection":"day-chuyen-bac-nu","image":"shopify:\/\/shop_images\/SON00535-2_9de2b342-0bb2-4533-ae07-fbe776df5124.jpg","subheading":"","title":"Dây chuyền bạc","url":"","heading_tag":"h1","text_position":"place-self-end-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"collection_U6nyiy":{"type":"collection","settings":{"collection":"inbloom-collection","image":"shopify:\/\/shop_images\/SON00136-1_2_fix_2.jpg","subheading":"","title":"","url":"","heading_tag":"h1","text_position":"place-self-end-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"collection_gNtMxV":{"type":"collection","settings":{"collection":"","image":"shopify:\/\/shop_images\/SON00268-1_1_1.jpg","subheading":"","title":"Nhẫn bạc","url":"shopify:\/\/collections\/nhan-bac-nu","heading_tag":"h1","text_position":"place-self-end-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["collection_7NQUga","collection_hYEQkR","collection_U6nyiy","collection_gNtMxV"],"name":"Collection list","settings":{"full_width":true,"stack_collections":true,"collections_per_row":2,"show_progress_bar":false,"subheading":"","title":"","content":"","link_url":"","link_text":"","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}},"rich_text_apH6Bt":{"type":"rich-text","blocks":{"richtext_pnqwhx":{"type":"richtext","disabled":true,"settings":{"content":"<p>Các thiết kế được ra đời với mong muốn tôn vinh vẻ đẹp nguyên bản của người phụ nữ. Of The Sun tự hào khi được là một phần trong câu chuyện của riêng bạn.<\/p>"}}},"block_order":["richtext_pnqwhx"],"settings":{"full_width":true,"content_width":"small","text_position":"center","background":"","background_gradient":"","text_color":""}},"1779881685ac272983":{"type":"_blocks","settings":{}},"collection_list_cz46CM":{"type":"collection-list","blocks":{"collection_QaaCjG":{"type":"collection","settings":{"collection":"all-products","image":"shopify:\/\/shop_images\/Thi_t_k_ch_a_co_ten_34.png","subheading":"","title":"Store","url":"","heading_tag":"h1","text_position":"place-self-end-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"collection_NDXmNY":{"type":"collection","settings":{"collection":"","image":"shopify:\/\/shop_images\/SRK08808.jpg","subheading":"","title":"About us","url":"shopify:\/\/pages\/gioi-thieu-ve-thuong-hieu","heading_tag":"h1","text_position":"place-self-end-start text-start","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}}},"block_order":["collection_QaaCjG","collection_NDXmNY"],"disabled":true,"custom_css":["#scroll-area-template--26919856308535__collection_list_cz46CM .section- {padding-bottom: 0;}"],"name":"Collection list","settings":{"full_width":true,"stack_collections":true,"collections_per_row":2,"show_progress_bar":false,"subheading":"","title":"","content":"","link_url":"","link_text":"","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}},"1780300633534de5d3":{"type":"_blocks","blocks":{"ai_gen_block_69d4ecb_DU49AM":{"type":"ai_gen_block_69d4ecb","settings":{"overlay_opacity":0.3,"heading":"Become the Aura Of The Sun","heading_size":60,"subheading":"Đăng ký để bước vào thế giới Of The Sun - Trở thành người đầu tiên nhận được thông tin những thiết kế mới và ưu đãi dành riêng cho bạn.","subheading_size":14,"text_color":"#ffffff","email_placeholder":"Enter your email","button_label":"Subscribe","success_message":"Thanks for subscribing!","input_background":"#ffffff","input_text_color":"#272727","input_border_color":"#cccccc","input_border_radius":6,"button_background":"#a32606","button_text_color":"#ffffff","button_hover_background":"#000000","button_border_radius":6,"success_color":"#708a5c","error_color":"#aa2826"},"blocks":{}}},"block_order":["ai_gen_block_69d4ecb_DU49AM"],"disabled":true,"settings":{}},"blog_posts_N7qhGb":{"type":"blog-posts","blocks":{"blog_nKebHy":{"type":"blog","settings":{"blog":"tin-tuc","posts_count":3,"stack_items":false}}},"block_order":["blog_nKebHy"],"disabled":true,"name":"Blog posts","settings":{"full_width":true,"show_excerpt":true,"show_date":true,"show_author":false,"show_comments_count":false,"show_category":true,"subheading":"","title":"STORES & SERVICE","content":"","link_url":"","link_text":"View all","background":"","background_gradient":"","text_color":"","heading_color":"","heading_gradient":""}}},"order":["collection_list_xJbjPP","video_hJ3L4e","custom_liquid_9rQ6BJ","1779941097e9f8904f","custom_liquid_fkeYkA","collection_list_4pkwWc","custom_liquid_YcBrBU","image_link_blocks_fQeCUz","featured_collection_BFeNjf","video_Nf8paE","custom_liquid_jwdN3U","collection_list_TwAYmG","rich_text_apH6Bt","1779881685ac272983","collection_list_cz46CM","1780300633534de5d3","blog_posts_N7qhGb"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection_list_xJbjPP": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_FR6azK": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/SON00761_1_9f1dde14-52cc-4216-ae9d-e36382bbe465.jpg",
+            "subheading": "",
+            "title": "The Summer Edit 2026",
+            "url": "shopify://collections",
+            "heading_tag": "h1",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_YJwPQ3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/SON00136-1_2_fix_2.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h1",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_FR6azK",
+        "collection_YJwPQ3"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 2,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "video_hJ3L4e": {
+      "type": "video",
+      "blocks": {
+        "play_86FeTE": {
+          "type": "play",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_86FeTE"
+      ],
+      "disabled": true,
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "fill",
+        "video": "shopify://files/videos/MAIN WEBSITE 169.mp4",
+        "mobile_video": "shopify://files/videos/MAIN WEBSITE 916 Mp4.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "custom_liquid_9rQ6BJ": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p></p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1779941097e9f8904f": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_b49edf6_qg76ye": {
+          "type": "ai_gen_block_b49edf6",
+          "settings": {
+            "desktop_width_percent": 80,
+            "column_gap": 0,
+            "mobile_gap": 0,
+            "column_padding": 55,
+            "vertical_alignment": "center",
+            "heading": "<h1>Made Of The Sun, Live by the sun.</h1>",
+            "heading_size": 54,
+            "heading_color": "#aa2826",
+            "heading_weight": "700",
+            "heading_letter_spacing": 0,
+            "paragraph": "<p>Với Of The Sun, từng trang sức thiết kế của chúng tôi không chỉ là món phụ kiện đơn thuần, mà còn để đánh thức thần thái rạng rỡ và thổi bừng sức sống trong từng khoảnh khắc.</p>",
+            "paragraph_size": 18,
+            "paragraph_color": "#272727",
+            "paragraph_letter_spacing": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_b49edf6_qg76ye"
+      ],
+      "settings": {}
+    },
+    "custom_liquid_fkeYkA": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p></p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "collection_list_4pkwWc": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_hnNwxE": {
+          "type": "collection",
+          "settings": {
+            "collection": "pearl",
+            "image": "shopify://shop_images/SON00535_1.jpg",
+            "subheading": "",
+            "title": "Pearl",
+            "url": "",
+            "heading_tag": "h1",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 8
+          }
+        },
+        "collection_eYaTWb": {
+          "type": "collection",
+          "settings": {
+            "collection": "aqua",
+            "image": "shopify://shop_images/SON00761_2.jpg",
+            "subheading": "",
+            "title": "Aqua",
+            "url": "",
+            "heading_tag": "h1",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_XypDWa": {
+          "type": "collection",
+          "settings": {
+            "collection": "flora",
+            "image": "shopify://shop_images/SON00238_1_1_1.jpg",
+            "subheading": "",
+            "title": "Flora",
+            "url": "",
+            "heading_tag": "h1",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_7tLrBW": {
+          "type": "collection",
+          "settings": {
+            "collection": "sun",
+            "image": "shopify://shop_images/SON00182_1.jpg",
+            "subheading": "",
+            "title": "Sun",
+            "url": "",
+            "heading_tag": "h1",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_hnNwxE",
+        "collection_eYaTWb",
+        "collection_XypDWa",
+        "collection_7tLrBW"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 4,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "custom_liquid_YcBrBU": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p></p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_link_blocks_fQeCUz": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_gYXFFY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/LEVIS-1.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://products/levys-bracelet-ofthesun",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_CWBTG9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/twist_gem-1.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://products/twist-gem-ring-ofthesun",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_ACwmLa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/NIMBLE-1.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://products/nimble-blue-topaz-bracelet-inbloom-ofthesun",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_WjDGtE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/zephyr-1.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://products/zephyr-pendant-inbloom-ofthesun",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_VkdT9r": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/W_H.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://products/heartbloom-whisper-rings-morph-ofthesun",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_ThWeQa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/bloomheartt-1.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://products/bloomheart-charm-morph-ofthesun",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_NfULPn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/siren_tear-1.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://products/sirens-tear-pendant-ofthesun",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_nygd3e": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/tear_of_joy-3.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://products/tear-of-joy-earring-ofthesun",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_Q9yKL3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/aero-1.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://products/aero-blue-topaz-ring-inbloom-ofthesun",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_LawNf4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ray_flutter-1.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "shopify://products/rayflutter-blue-topaz-earrings-inbloom-ofthesun",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_gYXFFY",
+        "item_CWBTG9",
+        "item_ACwmLa",
+        "item_WjDGtE",
+        "item_VkdT9r",
+        "item_ThWeQa",
+        "item_NfULPn",
+        "item_nygd3e",
+        "item_Q9yKL3",
+        "item_LawNf4"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": true,
+        "block_size": "large",
+        "subheading": "",
+        "title": "SUMMER PICKS JUST FOR YOU",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "featured_collection_BFeNjf": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "all-products",
+        "products": [
+          "levys-bracelet-ofthesun",
+          "pearl-sonata-necklace-ofthesun",
+          "nimble-moonstone-bracelet-inbloom-ofthesun",
+          "aero-moonstone-ring-inbloom-ofthesun",
+          "rayflutter-moonstone-earrings-inbloom-ofthesun",
+          "zephyr-pendant-inbloom-ofthesun",
+          "gleam-pendant-inbloom-ofthesun",
+          "jupier-opal-ring-ofthesun",
+          "tear-of-joy-earring-ofthesun",
+          "solid-ring-ofthesun",
+          "twist-gem-ring-ofthesun",
+          "pearl-mussel-bracelet-sea-ofthesun",
+          "starlight-bracelet-sea-ofthesun"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 12,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "SUMMER PICKS FOR YOU",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#111111",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "video_Nf8paE": {
+      "type": "video",
+      "blocks": {
+        "play_9w8XUU": {
+          "type": "play",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_9w8XUU"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/MAIN WEBSITE 169.mp4",
+        "mobile_video": "shopify://files/videos/MAIN WEBSITE 916 Mp4.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "custom_liquid_jwdN3U": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p></p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "collection_list_TwAYmG": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_7NQUga": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/SON00871-Fix_1_1.jpg",
+            "subheading": "",
+            "title": "Shop sterling silver",
+            "url": "https://ofthesun.vn/pages/bo-suu-tap",
+            "heading_tag": "h1",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_hYEQkR": {
+          "type": "collection",
+          "settings": {
+            "collection": "day-chuyen-bac-nu",
+            "image": "shopify://shop_images/SON00535-2_9de2b342-0bb2-4533-ae07-fbe776df5124.jpg",
+            "subheading": "",
+            "title": "Dây chuyền bạc",
+            "url": "",
+            "heading_tag": "h1",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_U6nyiy": {
+          "type": "collection",
+          "settings": {
+            "collection": "inbloom-collection",
+            "image": "shopify://shop_images/SON00136-1_2_fix_2.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h1",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_gNtMxV": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/SON00268-1_1_1.jpg",
+            "subheading": "",
+            "title": "Nhẫn bạc",
+            "url": "shopify://collections/nhan-bac-nu",
+            "heading_tag": "h1",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_7NQUga",
+        "collection_hYEQkR",
+        "collection_U6nyiy",
+        "collection_gNtMxV"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 2,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "rich_text_apH6Bt": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_pnqwhx": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Các thiết kế được ra đời với mong muốn tôn vinh vẻ đẹp nguyên bản của người phụ nữ. Of The Sun tự hào khi được là một phần trong câu chuyện của riêng bạn.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_pnqwhx"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1779881685ac272983": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "collection_list_cz46CM": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_QaaCjG": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-products",
+            "image": "shopify://shop_images/Thi_t_k_ch_a_co_ten_34.png",
+            "subheading": "",
+            "title": "Store",
+            "url": "",
+            "heading_tag": "h1",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_NDXmNY": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/SRK08808.jpg",
+            "subheading": "",
+            "title": "About us",
+            "url": "shopify://pages/gioi-thieu-ve-thuong-hieu",
+            "heading_tag": "h1",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_QaaCjG",
+        "collection_NDXmNY"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "#scroll-area-template--26919856308535__collection_list_cz46CM .section- {padding-bottom: 0;}"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 2,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "1780300633534de5d3": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_69d4ecb_DU49AM": {
+          "type": "ai_gen_block_69d4ecb",
+          "settings": {
+            "overlay_opacity": 0.3,
+            "heading": "Become the Aura Of The Sun",
+            "heading_size": 60,
+            "subheading": "Đăng ký để bước vào thế giới Of The Sun - Trở thành người đầu tiên nhận được thông tin những thiết kế mới và ưu đãi dành riêng cho bạn.",
+            "subheading_size": 14,
+            "text_color": "#ffffff",
+            "email_placeholder": "Enter your email",
+            "button_label": "Subscribe",
+            "success_message": "Thanks for subscribing!",
+            "input_background": "#ffffff",
+            "input_text_color": "#272727",
+            "input_border_color": "#cccccc",
+            "input_border_radius": 6,
+            "button_background": "#a32606",
+            "button_text_color": "#ffffff",
+            "button_hover_background": "#000000",
+            "button_border_radius": 6,
+            "success_color": "#708a5c",
+            "error_color": "#aa2826"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_69d4ecb_DU49AM"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "blog_posts_N7qhGb": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_nKebHy": {
+          "type": "blog",
+          "settings": {
+            "blog": "tin-tuc",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "blog_nKebHy"
+      ],
+      "disabled": true,
+      "name": "Blog posts",
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "STORES & SERVICE",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "collection_list_xJbjPP",
+    "video_hJ3L4e",
+    "custom_liquid_9rQ6BJ",
+    "1779941097e9f8904f",
+    "custom_liquid_fkeYkA",
+    "collection_list_4pkwWc",
+    "custom_liquid_YcBrBU",
+    "image_link_blocks_fQeCUz",
+    "featured_collection_BFeNjf",
+    "video_Nf8paE",
+    "custom_liquid_jwdN3U",
+    "collection_list_TwAYmG",
+    "rich_text_apH6Bt",
+    "1779881685ac272983",
+    "collection_list_cz46CM",
+    "1780300633534de5d3",
+    "blog_posts_N7qhGb"
+  ]
+}
