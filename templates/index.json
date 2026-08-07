@@ -9,6 +9,48 @@
  */
 {
   "sections": {
+    "slideshow_eJBEgW": {
+      "type": "slideshow",
+      "blocks": {
+        "image_9U6h6g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/16.07.2026_OF_THE_SUN6515__2_044e3d71-2235-4f60-b680-1b5a4b0a8339.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Vẻ rạng rỡ đến từ mỗi phút giây hết lòng",
+            "title": "BST mới | MELLIFERA",
+            "heading_tag": "h0",
+            "button_text": "Khám phá bộ sưu tập",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9U6h6g"
+      ],
+      "disabled": true,
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "collection_list_xJbjPP": {
       "type": "collection-list",
       "blocks": {
@@ -65,46 +107,6 @@
         "heading_gradient": ""
       }
     },
-    "video_hJ3L4e": {
-      "type": "video",
-      "blocks": {
-        "play_86FeTE": {
-          "type": "play",
-          "disabled": true,
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "play_86FeTE"
-      ],
-      "disabled": true,
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "fill",
-        "video": "shopify://files/videos/MAIN WEBSITE 169.mp4",
-        "mobile_video": "shopify://files/videos/MAIN WEBSITE 916 Mp4.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "custom_liquid_9rQ6BJ": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<p></p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "1779941097e9f8904f": {
       "type": "_blocks",
       "blocks": {
@@ -114,7 +116,7 @@
             "desktop_width_percent": 80,
             "column_gap": 0,
             "mobile_gap": 0,
-            "column_padding": 55,
+            "column_padding": 20,
             "vertical_alignment": "center",
             "heading": "<h1>Made Of The Sun, Live by the sun.</h1>",
             "heading_size": 54,
@@ -232,18 +234,6 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
-      }
-    },
-    "custom_liquid_YcBrBU": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<p></p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "image_link_blocks_fQeCUz": {
@@ -776,13 +766,11 @@
     }
   },
   "order": [
+    "slideshow_eJBEgW",
     "collection_list_xJbjPP",
-    "video_hJ3L4e",
-    "custom_liquid_9rQ6BJ",
     "1779941097e9f8904f",
     "custom_liquid_fkeYkA",
     "collection_list_4pkwWc",
-    "custom_liquid_YcBrBU",
     "image_link_blocks_fQeCUz",
     "featured_collection_BFeNjf",
     "video_Nf8paE",
