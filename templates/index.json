@@ -216,6 +216,7 @@
         "collection_XypDWa",
         "collection_7tLrBW"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_collections": true,
@@ -436,7 +437,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "SUMMER PICKS FOR YOU",
+        "title": "Khám phá BST mới",
         "content": "",
         "link_url": "",
         "link_text": "View all",
@@ -485,6 +486,46 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "featured_collection_6nFcB6": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "best-sellers",
+        "products": [
+          "levys-bracelet-ofthesun",
+          "pearl-sonata-necklace-ofthesun",
+          "nimble-moonstone-bracelet-inbloom-ofthesun",
+          "aero-moonstone-ring-inbloom-ofthesun",
+          "rayflutter-moonstone-earrings-inbloom-ofthesun",
+          "zephyr-pendant-inbloom-ofthesun",
+          "gleam-pendant-inbloom-ofthesun",
+          "jupier-opal-ring-ofthesun",
+          "tear-of-joy-earring-ofthesun",
+          "solid-ring-ofthesun",
+          "twist-gem-ring-ofthesun",
+          "pearl-mussel-bracelet-sea-ofthesun",
+          "starlight-bracelet-sea-ofthesun"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 12,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Khám phá BST mới",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#111111",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     },
     "collection_list_TwAYmG": {
@@ -746,6 +787,7 @@
     "featured_collection_BFeNjf",
     "video_Nf8paE",
     "custom_liquid_jwdN3U",
+    "featured_collection_6nFcB6",
     "collection_list_TwAYmG",
     "rich_text_apH6Bt",
     "1779881685ac272983",
