@@ -89,7 +89,7 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "collection": "aqua",
+        "collection": "mellifera",
         "products": [],
         "full_width": false,
         "stack_products": true,
