@@ -111,37 +111,120 @@
         "product_card_text_color": ""
       }
     },
-    "sunlit_woman_story_eGaedn": {
-      "type": "sunlit-woman-story",
-      "name": "Câu chuyện người phụ nữ",
+    "images_with_text_scrolling_nQyJX8": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_KHtntx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Adobe_Express_-_file_4.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Mỗi cô gái có một khu vườn",
+            "content": "<p>Mỗi cô gái đều có một “khu vườn” của mình. Khi dành thời gian và tâm sức cho những điều mình lựa chọn, cô ấy cũng đang âm thầm tạo nên vẻ rạng rỡ rất riêng của chính mình. Mellifera ra đời để tôn vinh vẻ đẹp ấy. </p>"
+          }
+        },
+        "item_MK3Rep": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Adobe_Express_-_file_7.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Khi cô ấy tập trung vào điều mình làm",
+            "content": "<p>Đó có thể là một công việc cô ấy dành trọn tâm huyết, một sở thích khiến cô ấy quên đi thời gian, những người cô ấy yêu thương hay chính cuộc sống mà cô ấy đã lựa chọn.</p><p>Mỗi ngày, cô ấy âm thầm chăm chút cho khu vườn ấy bằng thời gian, sự kiên trì và tất cả những điều nhỏ bé nhưng đầy chủ đích. Và rồi, theo một cách rất tự nhiên, những điều cô ấy tạo nên cũng đang âm thầm tạo nên chính cô ấy.</p>"
+          }
+        },
+        "item_Xibzyp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Adobe_Express_-_file_5.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Trân trọng từng thành quả trên hành trình",
+            "content": "<p>Vẻ rạng rỡ của cô ấy không đến từ một khoảnh khắc. Nó được nuôi dưỡng qua mỗi ngày sống hết lòng.</p><p>Hành trình đạt đến những điều mong muốn mất nhiều thời gian và tâm sức nhưng cô gái biết làm hành trình đó nhẹ nhàng hơn khi trân trọng và ăn mừng cho cả những thành quả nhỏ bé nhất để tận hưởng cả hành trình. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_KHtntx",
+        "item_MK3Rep",
+        "item_Xibzyp"
+      ],
+      "name": "Images and text scrolling",
       "settings": {
-        "first_image_1": "shopify://shop_images/Adobe_Express_-_file_7.jpg",
-        "first_image_2": "shopify://shop_images/Adobe_Express_-_file_8.jpg",
-        "first_heading": "Mỗi cô gái có một khu vườn",
-        "first_text": "<p>Mỗi cô gái đều có một “khu vườn” của mình. Khi dành thời gian và tâm sức cho những điều mình lựa chọn, cô ấy cũng đang âm thầm tạo nên vẻ rạng rỡ rất riêng của chính mình. Mellifera ra đời để tôn vinh vẻ đẹp ấy.</p>",
-        "second_heading": "Khi cô ấy tập trung vào điều mình làm",
-        "second_text": "<p>Đó có thể là một công việc cô ấy dành trọn tâm huyết, một sở thích khiến cô ấy quên đi thời gian, những người cô ấy yêu thương hay chính cuộc sống mà cô ấy đã lựa chọn.</p><p>Mỗi ngày, cô ấy âm thầm chăm chút cho khu vườn ấy bằng thời gian, sự kiên trì và tất cả những điều nhỏ bé nhưng đầy chủ đích. Và rồi, theo một cách rất tự nhiên, những điều cô ấy tạo nên cũng đang âm thầm tạo nên chính cô ấy.</p>",
-        "second_image_1": "shopify://shop_images/Adobe_Express_-_file_9.jpg",
-        "second_image_2": "shopify://shop_images/Adobe_Express_-_file_5.jpg",
-        "third_image_1": "shopify://shop_images/Adobe_Express_-_file_6.jpg",
-        "third_image_2": "shopify://shop_images/Adobe_Express_-_file_4.jpg",
-        "third_heading": "Trân trọng từng thành quả trên hành trình",
-        "third_text": "<p>Vẻ rạng rỡ của cô ấy không đến từ một khoảnh khắc. Nó được nuôi dưỡng qua mỗi ngày sống hết lòng.</p><p>Hành trình đạt đến những điều mong muốn mất nhiều thời gian và tâm sức nhưng cô gái biết làm hành trình đó nhẹ nhàng hơn khi trân trọng và ăn mừng cho cả những thành quả nhỏ bé nhất để tận hưởng cả hành trình. </p>",
-        "statement": "Khi hết lòng với những điều mình yêu, cô ấy cũng đang nuôi dưỡng bông hoa đẹp nhất – chính là bản thân mình",
-        "wide_image": "shopify://shop_images/Adobe_Express_-_file_10_519fa3a0-fb02-41b1-a3f9-8c79d76953eb.jpg",
-        "final_heading": "Được tạo nên từ đôi tay và sự tận tâm",
-        "final_text": "<p>Từ bản phác thảo đầu tiên đến công đoạn hoàn thiện cuối cùng, mỗi thiết kế đều được chế tác thủ công từ bạc S925, kết hợp cùng đá Citrine & Moonstone ánh xanh.</p><p>Đó không chỉ là những chất liệu được lựa chọn vì vẻ đẹp của chúng, mà còn bởi ý nghĩa chúng mang theo: sự rạng rỡ, sự cân bằng và nguồn năng lượng luôn hiện diện trong mỗi cô gái. </p>",
-        "final_image_1": "shopify://shop_images/Adobe_Express_-_file_2.jpg",
-        "final_image_2": "shopify://shop_images/1784780691151_2420631624646042223_2420631624646042223_f782016ea6e9f564bf759ac34a88c60d.jpg",
-        "background": "#ffffff",
-        "text_color": "#222222",
-        "content_width": 1400,
-        "image_radius": 10,
-        "pattern_opacity": 0,
-        "padding_top": 64,
-        "padding_bottom": 64,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "impact_text_tFzVX4": {
+      "type": "impact-text",
+      "blocks": {
+        "item_cz3PgC": {
+          "type": "item",
+          "settings": {
+            "title": "Khi hết lòng với những điều mình yêu",
+            "subheading": "cô ấy cũng đang nuôi dưỡng bông hoa đẹp nhất – chính là bản thân mình",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_cz3PgC"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "before_after_image_84Y6yn": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Được tạo nên từ đôi tay và sự tận tâm",
+        "content": "<p>Từ bản phác thảo đầu tiên đến công đoạn hoàn thiện cuối cùng, mỗi thiết kế đều được chế tác thủ công từ bạc S925, kết hợp cùng đá Citrine & Moonstone ánh xanh.</p><p>Đó không chỉ là những chất liệu được lựa chọn vì vẻ đẹp của chúng, mà còn bởi ý nghĩa chúng mang theo: sự rạng rỡ, sự cân bằng và nguồn năng lượng luôn hiện diện trong mỗi cô gái. </p>",
+        "before_image": "shopify://shop_images/1784780691151_2420631624646042223_2420631624646042223_f782016ea6e9f564bf759ac34a88c60d.jpg",
+        "before_image_mobile": "shopify://shop_images/1784780691151_2420631624646042223_2420631624646042223_f782016ea6e9f564bf759ac34a88c60d.jpg",
+        "after_image": "shopify://shop_images/Adobe_Express_-_file_2_21f64652-aa2d-4fa0-b4ab-7b9f96653f21.jpg",
+        "after_image_mobile": "shopify://shop_images/Adobe_Express_-_file_2_21f64652-aa2d-4fa0-b4ab-7b9f96653f21.jpg",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "bottom",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
       }
     }
   },
@@ -150,6 +233,8 @@
     "rich_text_fPjAwN",
     "main",
     "featured_collection_nWLVbH",
-    "sunlit_woman_story_eGaedn"
+    "images_with_text_scrolling_nQyJX8",
+    "impact_text_tFzVX4",
+    "before_after_image_84Y6yn"
   ]
 }
