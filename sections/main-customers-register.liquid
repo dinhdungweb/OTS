@@ -54,7 +54,7 @@
                         {%- render 'input', type: 'tel', name: 'customer[note]', label: "Số điện thoại", minlength: 5, autocomplete: 'Số điện thoại', required: true -%}
 
                         {%- assign password_label = 'customer.register.password' | t -%}
-                        {%- render 'input', type: 'password', name: 'customer[password]', label: password_label, pattern="[0-9]{10,11}", minlength: 5, autocomplete: 'new-password', required: true -%}
+                        {%- render 'input', type: 'password', name: 'customer[password]', label: password_label, minlength: 5, autocomplete: 'new-password', required: true -%}
                   
                         {%- if block.settings.show_email_consent -%}
                           {%- assign consent_label = 'customer.register.accepts_marketing' | t -%}
@@ -157,4 +157,16 @@
     }
   ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{%- render ''input'', type: ''password'', name: ''customer[password]'', label:
+    password_label, pattern="[0-9]{10,11}", minlength: 5, autocomplete: ''new-password'',
+    required: true -%}'
+  to: "{%- render 'input', type: 'password', name: 'customer[password]', label: password_label,
+    minlength: 5, autocomplete: 'new-password', required: true -%}"
+  position: 3445..3596
+{%- endcomment -%}
